@@ -7,17 +7,17 @@
 ### Entradas :car:
 + Un string con la placa del carro 
 + Un int para la seleccion del dia de la semana 
-  - Eje : 
-        - Ingrese la placa del vehiculo:
-        - EOT345  -------------> Dato ingresado por el usuario
-        - seleccione una opción:
-        - 1 Lunes 
-        - 2 Martes
-        - 3 Miercoles
-        - 4 Jueves
-        - 5 Viernes 
-        - Escribe una de las opciones
-        - 1   -------------> dato ingresado por el usuario
+- Eje : 
+- Ingrese la placa del vehiculo:
+- EOT345  -------------> Dato ingresado por el usuario
+- seleccione una opción:
+- 1 Lunes 
+- 2 Martes
+- 3 Miercoles
+- 4 Jueves
+- 5 Viernes 
+- Escribe una de las opciones
+- 1   -------------> dato ingresado por el usuario
 
 ### Salida :warning:
 + En el caso de que la placa ingresada corresponda a un carro con pico y placa imprime "Carro tiene pico y placa".
