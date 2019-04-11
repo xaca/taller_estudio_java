@@ -1,7 +1,7 @@
 # talller_estudio_java
 Ejercicios organizados por categorías, desde variables hasta interfaces y clases abstractas.
 
-# Ejercicios propuestos por Maicol Llano Moncada. 
+# Ejercicios propuestos por Maicol Llano Moncada. :fire: :boom:
 
 1. Crear un programa que genere un número aleatorio entre n y m y lo almacene (n y m son variables asignadas por el programador):
 
