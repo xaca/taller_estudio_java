@@ -1,0 +1,1 @@
+Con base a un archivo y un String dado, Cambiar la información del archivo desde una posición dada o aleatoria por lo que se encuentra en el String mencionado, en caso de que se pueda realizar la operación.
