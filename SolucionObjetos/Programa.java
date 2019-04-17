@@ -1,4 +1,4 @@
-mport java.io.Console;
+import java.io.Console;
 import java.io.*;
 import javax.swing.*;
 public class Programa {
