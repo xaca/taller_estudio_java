@@ -3,7 +3,12 @@
     Isabel Zuluaga González - 000138379
 
     Para no limitar al desarrollador java permite crear excepciones personalizadas que se ajusten
-    ala necesidad del programa
+    a la necesidad del programa.
+
+    lo unico necesario para la implementación es tener presente que se debe heredar de la clase
+    Exception
+
+
 */
 
 import java.util.Scanner;
@@ -22,8 +27,7 @@ public class demoExcepcion {
         System.out.println("Ingrese el denominador: ");
         String str2 = miDenominador.next();
 
-        // String str1="120";
-	    // String str2="3";
+        
         String respuesta;
 	    int numerador, denominador, cociente;
         try{
@@ -42,7 +46,7 @@ public class demoExcepcion {
         System.out.println(respuesta);
 
         try  {
-//espera la pulsación de una tecla y luego RETORNO
+//espera la pulsación de una tecla 
             System.in.read();
         }catch (Exception e) {  }
     }
