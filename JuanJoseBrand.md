@@ -24,3 +24,33 @@ Crear una clase **NODO** que contenga los siguientes atributos:  Nombre, apellid
 
  <mark>  NOTA:                                                
   tratar de crear un algoritmo lo más eficiente posible  </mark> 
+&nbsp;
+#  3 Exepciones 
+&nbsp;
+ ```java
+ public class HolaMundo{
+	static class DivisionEx extends Exception{
+		private String mensageError;
+		public DivisionEx(){
+			super();
+			this.mensageError = "divisor igual a cero";
+		}
+		public String getMensajeError(){
+			return mensageError;
+		}
+	}
+	public static void main(String args[]) throws DivisionEx {
+		int dividendo = 8;
+		int divisor = 0;
+		try{
+			if ( divisor == 0) {
+				throw new DivisionEx();
+			}
+		}catch(DivisionEx e){
+			System.out.println(e.getMensajeError());
+        }
+	}
+}
+```
+# 4 Interfaz
+Una interfaz en java es un conjunto de metodos abstractos los cuales funcionan como un cuerpo, la clase que implementa esta interfaz es la encargada de definir el funcionamiento de estos metodos, la implementacion de una interfaz guarda una gran relación con con la herencia, pero tambien una gran diferncia la cual es una clase solo puede heredar una vez, encambio puede implementar varias interfaz's, además una herencia puede tener atributos y metodos que si realizan algo. 
