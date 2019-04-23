@@ -1,13 +1,15 @@
 Cristian David Gómez Roman.
 
-Un empresario necesita un sistema para administrar hoteles que tiene a su dispocion. 
+Ejercicio de clases en java: El Hotel
+=====================================
 
-Por el momento tiene 3 hoteles 
+# Un empresario necesita un sistema para administrar hoteles que tiene a su dispocion. :moneybag:
 
-Hotel playa: tiene 10 habitaciones, picina, sauna y esta al borde del mar. 
+Por el momento tiene 3 hoteles: 
+* Hotel playa: tiene 10 habitaciones, picina, sauna y esta al borde del mar. 
 
-Hotel rural: es un hotel en el campo que tiene 5 habitaciones, sauna, siembra de cafe, taller para procesar cafe y barra libre de desayunos. 
+* Hotel rural: es un hotel en el campo que tiene 5 habitaciones, sauna, siembra de cafe, taller para procesar cafe y barra libre   de desayunos. 
 
-Hotel ciudad: tiene 20 habitaciones, picina, sauna, gym, tienda, restaurante. 
+* Hotel ciudad: tiene 20 habitaciones, picina, sauna, gym, tienda, restaurante. 
 
 Se necestia que el sitema ingrese cuando un cliente arrienda una habitacion, por cuanto tiempo y que habitaciones estan ocupadas en cual hotel. 
