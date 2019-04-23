@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String [ ] args) {
 
-        Caja caja1 = new Caja(5,3,2);
+        Caja caja1 = new Caja(10,15,20);
 
         System.out.println(caja1.CalcularArea());
         System.out.println(caja1.CalcularVolumen());

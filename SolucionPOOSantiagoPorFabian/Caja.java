@@ -26,10 +26,7 @@ public class Caja {
     }
 
     public boolean CompararConIdeal(){
-        if( this.alto == 10 && this.largo == 15 && this.ancho == 20 ){
-            return true;
-        }
-        return false;
+        return this.alto == 10 && this.largo == 15 && this.ancho == 20;
     }
 
 }
