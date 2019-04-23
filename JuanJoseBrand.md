@@ -23,7 +23,7 @@ Utilizando herencia implementar las respectivas clases en java, cada clase debe 
 + Toda la informacion de cada persona
 
 # 2 fundamentos de programación: 
-Crear una clase **NODO** que contenga los siguientes atributos:  Nombre, apellido y año de nacimiento, además crear un programa que permita agregar istancias de NODO a una lista o array, sin importar el orden en el cual se agregan, aquellos NODOS con año de nacimiento igual deben quedar consecutivos, como ejemplo suponiendo que agregas A C B D en este orden, deben quedar organizados de esta forma:
+Crear una clase **NODO** que contenga los siguientes atributos:  Nombre, apellido y año de nacimiento, además crear un programa que permita agregar istancias de NODO a una lista o array, sin importar el orden en el cual se agregan, aquellos NODOS con año de nacimiento igual deben quedar consecutivos y en orden ascendente, como ejemplo suponiendo que agregas A C B D en este orden, deben quedar organizados de esta forma:
 - A nacido en el 2000
 - B nacido en el 2000
 - D nacido en el 2000
@@ -36,9 +36,8 @@ Crear una clase **NODO** que contenga los siguientes atributos:  Nombre, apellid
 + Nombre
 + Apellido
 + Ano de nacimiento
-+ .....
 ### Salidas
-+ Un array o lista organizado.
++ Un array o lista organizado por año de nacimento.
 
 &nbsp;
 #  3 Exepciones 
