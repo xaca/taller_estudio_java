@@ -3,7 +3,7 @@
 
 colegio cuenta con los siguientes empleados: :school: :school_satchel:
 
-- Docente Tiempo completo 
+- Docente de tiempo completo 
 
 - Docente ocasional  
 
@@ -13,14 +13,14 @@ colegio cuenta con los siguientes empleados: :school: :school_satchel:
 
 - Administrativos de planta profesional 
 
-Implementar las respectivas clases en java, utilizando herencia, cada clase debe permitir tener un nombre, id, apellido, fecha de nacimiento, teléfono y un salario. Además, los docentes tienen un área de estudio, agregar atributos que se consideren faltantes.  
+Utilizando herencia implementar las respectivas clases en java, cada clase debe como tener atributos un nombre, id, apellido, fecha de nacimiento, teléfono y un salario. Además, los docentes tienen un área de estudio, agregar atributos que se consideren faltantes.  
 
 # 2 fundamentos de programación: 
-Crear una clase NODO que contenga Nombre, apellido y año de nacimiento, además crear un programa que permita agregarlos a una lista o array, sin importar el orden en el cual se agregan los nacidos en un año igual deben quedar consecutivos, ejemplo: 
+Crear una clase **NODO** que contenga los siguientes atributos:  Nombre, apellido y año de nacimiento, además crear un programa que permita agregar istancias de NODO a una lista o array, sin importar el orden en el cual se agregan, aquellos NODOS con año de nacimiento igual deben quedar consecutivos, como ejemplo suponiendo que agregas A C B D en este orden, deben quedar organizados de esta forma:
+- A nacido en el 2000
+- B nacido en el 2000
+- D nacido en el 2000
+- C nacido en el 2001
 
-A nacido en el 2000, B nacido en el 2000, C nacido en el 2001 
-
--------------------------------------------------------
-  NOTA:                                                
-  tratar de crear un algoritmo lo más eficiente posible  
--------------------------------------------------------
+ <mark>  NOTA:                                                
+  tratar de crear un algoritmo lo más eficiente posible  </mark> 
