@@ -16,5 +16,33 @@ Para este programa se requiere los siguientes metodos:
 - dividir complejo
 - exponenciar complejo
 
+# Ejercicio 3 (Interfaz)
+Se debe implementar la interface KeyListener para imprimir el valor de la techa presionada a consola
+
+# Ejercicio 4 (Excepción)
+```sh
+class Excepcion {
+    static void nota(double x) throws ExcepcionNota {
+        if (x < 3.0){
+            throw new ExcepcionMayoriaEdad(x);
+        }else{
+            System.out.println("Ganaste el examen");
+        }    
+     }
+	 
+	 
+    public static void main(String[] args)throws ExcepcionNota {
+    
+        try{
+           nota(2.5);
+		   
+        }catch(ExcepcionNota e){
+		
+            System.out.println(e);
+        }
+    }
+}
+```
 
 **Realizado por: José Luis Carretero** :punch: 
+
