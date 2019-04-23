@@ -3,6 +3,8 @@ Ejercicios organizados por categorías, desde variables hasta interfaces y clase
 
 # Ejercicios propuestos por Maicol Llano Moncada. :fire: :boom:
 
+## Fundamentos de programación
+
 1. Crear un programa que genere un número aleatorio entre n y m y lo almacene (n y m son variables asignadas por el programador):
 
     - Imprimir por pantalla un mensaje que indique el rango en el que fue generado el número aleatorio (n-m)
@@ -11,6 +13,7 @@ Ejercicios organizados por categorías, desde variables hasta interfaces y clase
 
     *Una vez se tenga un acierto, indicarle al usario y mostrar en pantalla el número de intentos realizados.
 
+## OOP
 
 2. El gimnasio de la Universidad Pontificia Bolivariana necesita calcular el costo de inscripción mensual para sus clientes, según el tipo de plan especificado en la tabla y otros criterios adicionales. 
 
