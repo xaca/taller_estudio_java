@@ -5,7 +5,7 @@ public class Videojuego implements Entregable{
     private int horas;
     private boolean prestado;
     private String genero;
-    private String compañia;
+    private String Compania;
     private int id;
  
     //Métodos publicos
@@ -19,12 +19,12 @@ public class Videojuego implements Entregable{
     }
  
    
-    public int gethoras() {
+    public int getHoras() {
         return horas;
     }
  
  
-    public void sethoras(int horas) {
+    public void setHoras(int horas) {
         this.horas = horas;
     }
  
@@ -39,13 +39,13 @@ public class Videojuego implements Entregable{
     }
  
  
-    public String getcompañia() {
-        return compañia;
+    public String getCompania() {
+        return Compania;
     }
  
 
-    public void setcompañia(String compañia) {
-        this.compañia = compañia;
+    public void setCompania(String Compania) {
+        this.Compania = Compania;
     }
  
    
@@ -71,7 +71,7 @@ public class Videojuego implements Entregable{
                 "\tTitulo: "+titulo+"\n" +
                 "\tNumero de horas: "+horas+"\n" +
                 "\tGenero: "+genero+"\n" +
-                "\tcompañia: "+compañia+"\n" +
+                "\tCompania: "+Compania+"\n" +
                 "\tPrestado: "+prestado+"\n" +
                 "\tID: "+id;
     }
@@ -85,11 +85,11 @@ public class Videojuego implements Entregable{
    
    
 
-    public Videojuego(String titulo, int horas, String genero, String compañia, int id){
+    public Videojuego(String titulo, int horas, String genero, String Compania, int id){
         this.titulo=titulo;
         this.horas=horas;
         this.genero=genero;
-        this.compañia=compañia;
+        this.Compania=Compania;
         this.prestado=false;
         this.id=id;
     }

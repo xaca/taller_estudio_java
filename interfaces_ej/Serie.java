@@ -40,7 +40,7 @@ public class Serie implements Entregable{
     }
  
  
-    public String getcreador() {
+    public String getCreador() {
         return creador;
     }
  
