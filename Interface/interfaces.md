@@ -1,4 +1,4 @@
-***Que es una interface***
+## Que es una interface
 
 
 *Una interfaz es un conjunto de métodos abstractos (es decir, se declaran los metodos pero no se implementan) y sus atributos son constantes. Cuando una clase implementa una interfaz , la clase implementa los metodos que posee dicha interfaz. Tener en cuenta que *:
@@ -27,8 +27,8 @@ Referencias:
  - [https://www.youtube.com/watch?v=Ixn8Ypri90w](https://www.youtube.com/watch?v=Ixn8Ypri90w)
  - [http://puntocomnoesunlenguaje.blogspot.com/2013/09/java-interfaces.html](http://puntocomnoesunlenguaje.blogspot.com/2013/09/java-interfaces.html)
 
-***Ejercicio propuesto interface***
+## Ejercicio propuesto interface
 
 
 *El gerente de un zoologico quiere un que desarrolle un programa para saber si los animales del zoologico ya han comido y en caso que no lo hayan hecho alimentarlos, por lo cual se requiere un crear una interfaz llamada alimentacion la cual posea los metodos abstractos   
-hasBeenFed(boolean feed) y feed(). Tener en cuenta que hay diferentes animales en el zoologico estos comen alimentos diferentes, por lo cual se plantea crear tres clases, las cuales representen a un animal del zoologico y que implementen la interfaz alimentación, ademas de ello cada una de esta debe tener un atributo booleano para verificar si ya a comido.* 
+hasBeenFed(boolean feed) y feed(). Tener en cuenta que hay diferentes animales en el zoologico estos comen alimentos diferentes, por lo cual se plantea crear 2 clases, las cuales representen a un animal del zoologico y que implementen la interfaz alimentación, ademas de ello cada una de esta debe tener un atributo booleano para verificar si ya a comido. (ver la implementación del ejemplo en los archivos de la carpeta interface)* 
