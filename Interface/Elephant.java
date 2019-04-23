@@ -1,4 +1,4 @@
-public class Elefante implements Alimentacion
+public class Elephant implements Alimentacion
 {
 	private String food;
 	private boolean ithasfed;
@@ -18,13 +18,14 @@ public class Elefante implements Alimentacion
 
 	public void hasBeenFed(boolean feed)
 	{
-		if(feed==false)
+		if(feed)
 		{
-			System.out.println("el Elefante necesita alimentarse con"+food);	
+			System.out.println("el Elefante ya a comido");
 		}
 		else
 		{
-			System.out.println("el Elefante ya a comido");
+			System.out.println("el Elefante necesita alimentarse con"+food);	
+			
 		}
 
 	}

@@ -1,4 +1,4 @@
-public class Leon implements Alimentacion{
+public class Lion implements Alimentacion{
 	private String food;
 	private boolean ithasfed;
 
@@ -22,13 +22,13 @@ public class Leon implements Alimentacion{
 
 	public void hasBeenFed(boolean feed)
 	{
-		if(feed==false)
+		if(feed)
 		{
-			System.out.println("el Leon necesita alimentarse con"+food);	
+			System.out.println("el leon ya a comido");
 		}
 		else
 		{
-			System.out.println("el leon ya a comido");
+			System.out.println("el Leon necesita alimentarse con"+food);
 		}
 
 	}
