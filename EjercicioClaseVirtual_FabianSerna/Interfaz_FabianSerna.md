@@ -18,9 +18,9 @@ La ventaja principal del uso de interfaces es que una clase interface puede ser 
 ## Ejercicio
 Muchos animales realizan las mismas acciones, pero de diferentes maneras, es decir, hay una cantidad de animales que corren, comen, beben, saltan, pero no lo hacen de la misma manera, algunas lograrán saltar hasta 2 metros, otros podrán comer hasta 2 kg de carne, y así respectivamente.
 Teniendo en cuenta lo anterior, cree una interfaz Animal, con los siguiente métodos
- - Comer(alimento): Este método se utilizará para comer el alimento según el animal
- - Beber(liquido): Este método se utilizará para beber el liquido según el animal
- - Correr(distancia): Este método se utilizará para ver el tiempo en que se demora el animal para correr dicha distancia
- - Saltar(altura): Este método se utilizará para ver si el animal puede saltar dicha altura
+ - Comer(): Este método imprime lo que el animal come
+ - Beber(): Este método imprime lo que el animal bebe
+ - Correr(): Este método imprime la velocidad del animal corriendo
+ - Saltar(): Este método imprime la altura maxima que puede saltar
 
-Luego de crear la interfaz Animal, cree una clase Gato y otro Perro, implemente la interfaz en estas clases, y defina sus métodos
+Luego de crear la interfaz Animal, cree una clase Gato e implemente la interfaz en estas clases, y defina sus métodos
