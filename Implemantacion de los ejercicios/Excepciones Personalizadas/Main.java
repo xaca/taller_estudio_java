@@ -1,19 +1,19 @@
-public class Main {
+public class Principal {
 	public static void main(String[] args){
 
-		String user,pass,repass;
-		user = "sebascz";
-		pass = "12345777";
-		repass = "45321777";
+		String usuario,clave,reclave;
+		usuario = "sebascz";
+		clave = "12345777";
+		reclave = "45321777";
 
 		Propio h= new propio();
 
 		try{
-			h.validarPassword(pass,repass0);
+			h.validarClave(clave,reclave);
 
 		}
 
-		catch(CustomExeption e){
+		catch(Exepcion e){
 			System.out.println("no se puede registrar debido a: "+e.getMessage());
 
 		}

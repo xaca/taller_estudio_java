@@ -1,8 +1,8 @@
-public class CustomExeption extends Exeption{
+public class Excepcion extends Exeption{
 	
 	public static final long serialVersionUID = 700L;
 
-	public CustomExeption(String mensaje){
+	public Excepcion(String mensaje){
 		super(mensaje);
 	}
 }

@@ -3,12 +3,12 @@ public class propio {
 	
 	}
 
-	public void ValidarPassword(String pass,String repass) throws CustomExeption{
-		if(!pass.equals(repass)){
-			throw new CustomExeption("los campos password no coinciden");
+	public void Validar(String pass,String repass) throws Exepcion{
+		if(!clave.equals(reclave)){
+			throw new CustomExeption("Los campos clave no coinciden");
 		}
-		if(pass.length() < 8){
-			throw new CustomExeption("El password no es lo suficientemente largo");
+		if(clave.length() < 8){
+			throw new Exepcion("La clave no es lo suficientemente largo");
 		}
 	}
 }
