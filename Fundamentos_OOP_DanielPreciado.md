@@ -41,6 +41,5 @@ Para el final de la serie Game of Thrones se quiere hacer un simulador en el que
 
 #### MatarPersonaje :skull:
 ##### Entrada
-- Boolean isDead
 ##### Salida
 - Mensaje de condolencias 
