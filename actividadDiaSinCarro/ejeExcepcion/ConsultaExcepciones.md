@@ -2,7 +2,7 @@
 
 ## EXCEPCIONES PERSONALIZADAS :cyclone:
 
-<En la mayoría de los casos, es más simple desde el punto de vista de diseño de código usar clases de Exception genéricas existentes al lanzar excepciones. Esto es especialmente cierto si solo necesita la excepción para llevar un simple mensaje de error. En ese caso, generalmente se prefiere RuntimeException , ya que no es una excepción marcada. Existen otras clases de excepción para las clases comunes de errores:
+En la mayoría de los casos, es más simple desde el punto de vista de diseño de código usar clases de Exception genéricas existentes al lanzar excepciones. Esto es especialmente cierto si solo necesita la excepción para llevar un simple mensaje de error. En ese caso, generalmente se prefiere RuntimeException , ya que no es una excepción marcada. Existen otras clases de excepción para las clases comunes de errores:
 
 + UnsupportedOperationException : una determinada operación no es compatible
 + IllegalArgumentException : se pasó un valor de parámetro no válido a un método
