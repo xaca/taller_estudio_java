@@ -14,6 +14,13 @@ colegio cuenta con los siguientes empleados: :school: :school_satchel:
 - Administrativos de planta profesional 
 
 Utilizando herencia implementar las respectivas clases en java, cada clase debe como tener atributos un nombre, id, apellido, fecha de nacimiento, teléfono y un salario. Además, los docentes tienen un área de estudio, agregar atributos que se consideren faltantes.  
+### Entradas
++ Nombre
++ Apellido
++ Id
++ .....
+### Salidas
++ Toda la informacion de cada persona
 
 # 2 fundamentos de programación: 
 Crear una clase **NODO** que contenga los siguientes atributos:  Nombre, apellido y año de nacimiento, además crear un programa que permita agregar istancias de NODO a una lista o array, sin importar el orden en el cual se agregan, aquellos NODOS con año de nacimiento igual deben quedar consecutivos, como ejemplo suponiendo que agregas A C B D en este orden, deben quedar organizados de esta forma:
@@ -23,7 +30,16 @@ Crear una clase **NODO** que contenga los siguientes atributos:  Nombre, apellid
 - C nacido en el 2001
 
  <mark>  NOTA:                                                
-  tratar de crear un algoritmo lo más eficiente posible  </mark> 
+  tratar de crear un algoritmo lo más eficiente posible  </mark>
+
+### Entradas
++ Nombre
++ Apellido
++ Ano de nacimiento
++ .....
+### Salidas
++ Un array o lista organizado.
+
 &nbsp;
 #  3 Exepciones 
 &nbsp;
@@ -54,3 +70,35 @@ Crear una clase **NODO** que contenga los siguientes atributos:  Nombre, apellid
 ```
 # 4 Interfaz
 Una interfaz en java es un conjunto de metodos abstractos los cuales funcionan como un cuerpo, la clase que implementa esta interfaz es la encargada de definir el funcionamiento de estos metodos, la implementacion de una interfaz guarda una gran relación con con la herencia, pero tambien una gran diferncia la cual es una clase solo puede heredar una vez, encambio puede implementar varias interfaz's, además una herencia puede tener atributos y metodos que si realizan algo. 
+
+
+ ```java
+public class Programa{
+	private interface Vehiculo{
+		public void frenar();
+		public void acelerar();
+		public void arrancar();
+	}
+
+	public static class Carro implements Vehiculo{
+		public void acelerar(){
+			System.out.println("el carro ecelero \n");
+		}
+		public void arrancar(){
+			System.out.println("el carro arraco \n");
+		}
+		public void frenar(){
+			System.out.println("el carro freno \n");
+
+		}
+	}
+	public static void main(String args[]) {
+		Programa programa = new Programa();
+		Programa.Carro carro = new Programa.Carro();
+		carro.arrancar();
+		carro.acelerar();
+		carro.frenar();
+	}
+
+}
+```
