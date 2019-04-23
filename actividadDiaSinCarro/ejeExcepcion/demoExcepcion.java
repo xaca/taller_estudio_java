@@ -2,13 +2,6 @@
 /* Punto 4) Actividad  dia sin carro Excepciones propias
     Isabel Zuluaga González - 000138379
 
-    Para no limitar al desarrollador java permite crear excepciones personalizadas que se ajusten
-    a la necesidad del programa.
-
-    lo unico necesario para la implementación es tener presente que se debe heredar de la clase
-    Exception
-
-
 */
 
 import java.util.Scanner;
@@ -19,40 +12,39 @@ public class demoExcepcion {
     public static void main(String[] args) {
 
 
-         Scanner miNumerador = new Scanner(System.in);
-        Scanner miDenominador = new Scanner(System.in);
-
-        System.out.println("Ingrese el numerador: ");
-        String str1 = miNumerador.next();
-        System.out.println("Ingrese el denominador: ");
-        String str2 = miDenominador.next();
+        Scanner miNumero = new Scanner(System.in);
+        
+        System.out.println("Ingrese un numero: ");
+        String str1 = miNumero.next();
+        
 
         
         String respuesta;
-	    int numerador, denominador, cociente;
+	    int numero;
         try{
-            numerador=Integer.parseInt(str1);
-            denominador=Integer.parseInt(str2);
-            rango(numerador, denominador);
-            cociente=numerador/denominador;
-            respuesta=String.valueOf(cociente);
+            numero=Integer.parseInt(str1);
+            
+            miLimite(numero);
+       
+            respuesta=String.valueOf(numero);
+           
         }catch(NumberFormatException ex){
-            respuesta="Se han introducido caracteres no numéricos";
-        }catch(ArithmeticException ex){
-            respuesta="División entre cero";
+            respuesta="Solo se pueden introducir numeros";
+        
         }catch(ExcepcionPropia ex){
             respuesta=ex.getMessage();
         }
-        System.out.println(respuesta);
+         System.out.println("El numero introducido es: "+ respuesta);
+       
 
         try  {
-//espera la pulsación de una tecla 
+ 
             System.in.read();
         }catch (Exception e) {  }
     }
-     static void rango(int num, int den)throws ExcepcionPropia{
-        if((num>100)||(den<-5)){
-            throw new ExcepcionPropia("Números fuera del intervalo");
+     static void miLimite(int elNumero)throws ExcepcionPropia{
+        if(elNumero>100){
+            throw new ExcepcionPropia("Numero paso el limite");
         }
     }
 
