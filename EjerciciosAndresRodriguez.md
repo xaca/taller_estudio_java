@@ -18,6 +18,7 @@ Hoy no es día laboral o si es un día laboral
 
 
 Se desea manejar una lista de electrodomésticos. Cada electrodoméstico tiene un número y un porcentaje de vida útil. 
+
 -El número de elementos de la lista será un valor aleatorio entre 5 y 10. 
 
 -El porcentaje de vida útil de cada electrodoméstico será un valor aleatorio entre 1 y 100.
