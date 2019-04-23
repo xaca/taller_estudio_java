@@ -1,34 +1,12 @@
 import java.io.*;
 import javax.swing.*;
 import java.util.*; 
-
-//Una interfaz es como una clase abstarcta no se utilizan para crear obejtos
-interface Persona {
-    public void caminar();
-
-    public double getIMC(double estatura, double peso);
-}
-
-class Estudiante implements Persona {
-    private int id;
-    @Override
-    public void caminar() {
-
-    }
-
-    @Override
-    public double getIMC(double estatura, double peso) {
-        double imc=0;
-        imc=peso/(Math.pow((estatura/100),2));
-        return imc;
-    }
-    public int getId() {
-        return id;
-    }
-    public void setId(int id) {
-        this.id = id;
-    }
-}
+//TEORIA:
+//En su forma más común, una interfaz es un grupo de 
+//métodos relacionados con el comportamiento de un 
+//objeto que implemente la interfaz.
+//Una interfaz es como una clase abstracta 
+//no se utilizan para crear obejtos.
 
 class Interfaz {
   public static void main(String[] args) {
