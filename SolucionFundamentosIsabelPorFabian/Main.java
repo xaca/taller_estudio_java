@@ -3,9 +3,11 @@ import java.util.Scanner;
 public class Main {
     public static void main(String [ ] args) {
         
-        Scanner leer = new Scanner(System.in);
-        
+        Scanner leer = new Scanner(System.in);        
         int option = 0;
+        int option2 = 0;
+        String placa;
+        char ultimoCaracter;
 
         do{
 
@@ -16,55 +18,25 @@ public class Main {
                 case 1:
                 
                     System.out.print("-----------------------------------\nIngrese la placa del vehiculo: ");
-                    String placa = leer.next();
-                    char ultimoCaracter = placa.charAt(placa.length() - 1);
-                    int option2 = 0;
+                    placa = leer.next();
+                    ultimoCaracter = placa.charAt(placa.length() - 1);
                     do{
 
                         System.out.println("-----------------------------------\nSeleccione una opcion:\n1. Lunes\n2. Martes\n3. Miercoles\n4. Jueves\n5. Viernes");
                         option2 = leer.nextInt();
-
-                        switch(option2){
-                            case 1: 
-                                if(ultimoCaracter == '6' || ultimoCaracter == '7' || ultimoCaracter == '8' || ultimoCaracter == '9'){
-                                    System.out.println("\nCarro tiene pico y placa");
-                                }else{
-                                    System.out.println("\nCarro NO tiene pico y placa");
-                                }
-                                break;
-
-                            case 2:
-                                if(ultimoCaracter == '0' || ultimoCaracter == '1' || ultimoCaracter == '2' || ultimoCaracter == '3'){
-                                    System.out.println("\nCarro tiene pico y placa");
-                                }else{
-                                    System.out.println("\nCarro NO tiene pico y placa");
-                                }
-                                break;
-
-                            case 3:
-                                if(ultimoCaracter == '6' || ultimoCaracter == '7' || ultimoCaracter == '8' || ultimoCaracter == '9'){
-                                    System.out.println("\nCarro tiene pico y placa");
-                                }else{
-                                    System.out.println("\nCarro NO tiene pico y placa");
-                                }
-                                break;
-
-                            case 4:
-                                if(ultimoCaracter == '6' || ultimoCaracter == '7' || ultimoCaracter == '8' || ultimoCaracter == '9'){
-                                    System.out.println("\nCarro tiene pico y placa");
-                                }else{
-                                    System.out.println("\nCarro NO tiene pico y placa");
-                                }
-                                break;
-
-                            case 5:
-                                if(ultimoCaracter == '6' || ultimoCaracter == '7' || ultimoCaracter == '8' || ultimoCaracter == '9'){
-                                    System.out.println("\nCarro tiene pico y placa");
-                                }else{
-                                    System.out.println("\nCarro NO tiene pico y placa");
-                                }
-                                break;
-
+            
+                        if(option2 == 2){
+                            if(ultimoCaracter == '0' || ultimoCaracter == '1' || ultimoCaracter == '2' || ultimoCaracter == '3'){
+                                System.out.println("\nCarro tiene pico y placa");
+                            }else{
+                                System.out.println("\nCarro NO tiene pico y placa");
+                            }
+                        }else{
+                            if(ultimoCaracter == '6' || ultimoCaracter == '7' || ultimoCaracter == '8' || ultimoCaracter == '9'){
+                                System.out.println("\nCarro tiene pico y placa");
+                            }else{
+                                System.out.println("\nCarro NO tiene pico y placa");
+                            }
                         }
 
                     }while(option2 < 1 || option2 > 5);
