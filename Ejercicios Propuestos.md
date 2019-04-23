@@ -13,7 +13,7 @@ especificas. Cree la clase abstracta jugador y implementela en las clases que co
   - hacer uso de la clase y ejemplificar
   - Metodo constructor para cada clase
 
-# Ejercicio 2 : Orientado a objetos 🏃 
+# Ejercicio 2 : Programacion Orientada a Objetos (POO) 🏃 
 
 Antes revise este enlace  🌀 : [a link] (https://www.google.com/search?rlz=1C1CHBF_enCO843CO843&ei=ul2_XPntMKqL5wKF9KC4Bw&q=herecnia+en+java&oq=herecnia+en+java&gs_l=psy-ab.3..0i13l10.925.3527..4043...1.0..0.868.3329.4-1j2j2......0....1..gws-wiz.......0i71j35i304i39.nP1k-jvF_Jk)
 
@@ -30,7 +30,7 @@ Responde a las siguientes preguntas:
 
 Ahora Intente crear un grupo de interfaces donde se evidencincie lo anterios y correcto uso 🙅
 
-# Ejercicio 3 : Fundamentos de Programacion Orientado a objetos 🏃 
+# Ejercicio 3 : Fundamentos de Programacion  🏃 
 
 ##### Problema: 🐈
 Para aprender a programar y ademas ser un buen programador es importante el manejo de Arrays.
