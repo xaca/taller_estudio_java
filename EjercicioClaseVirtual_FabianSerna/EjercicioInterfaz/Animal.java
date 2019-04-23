@@ -1,6 +1,6 @@
 public interface Animal {
-    public void Comer(String alimento);
-    public void Beber(String bebida);
-    public void Correr(double distancia);
-    public void Saltar(int altura);
+    public String Comer(String alimento);
+    public String Beber(String bebida);
+    public double Correr(double distancia);
+    public boolean Saltar(int altura);
 }

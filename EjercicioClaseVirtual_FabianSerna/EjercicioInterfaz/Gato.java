@@ -5,36 +5,44 @@ public class Gato implements Animal {
     }
     
     @Override
-    public void Comer(String alimento){
+    public String Comer(String alimento){
+        
+        String mensaje = "";
+
         if(alimento == "pescado" || alimento == "rata"){
-            System.out.println("Si como "+alimento);
+            mensaje += "Si como "+alimento;
         }else{
-            System.out.println("No como "+alimento);
+            mensaje += "No como "+alimento;
         }
+
+        return mensaje;
+
     }
 
     @Override
-    public void Beber(String bebida){
+    public String Beber(String bebida){
+
+        String mensaje = "";
+
        if(bebida == "leche" || bebida == "agua"){
-            System.out.println("Si tomo "+bebida);
+            mensaje += "Si tomo "+bebida;
         }else{
-            System.out.println("No tomo "+bebida);
+            mensaje += "No tomo "+bebida;
         }
+
+        return mensaje;
+
     }
 
     @Override
     // distancia en metros
-    public void Correr(double distancia){
-        System.out.println("Lo corro en "+distancia/30+" horas");
+    public double Correr(double distancia){
+        return distancia/30;
     }
 
     @Override
-    public void Saltar(int altura){
-        if(altura > 3){
-            System.out.println("No lo puedo saltar");
-        }else{
-            System.out.println("Si lo puedo saltar");
-        }
+    public boolean Saltar(int altura){
+        return altura < 3;
     }
 
 }
