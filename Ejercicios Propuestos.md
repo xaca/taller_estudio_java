@@ -30,13 +30,16 @@ Responde a las siguientes preguntas:
 
 Ahora Intente crear un grupo de interfaces donde se evidencincie lo anterios y correcto uso 🙅
 
-# Ejercicio 3 : Fundamentos de Programacion  🏃 
+# Ejercicio 3 : Fundamentos de Programacion Orientada a Objetos 🏃 
 
 ##### Problema: 🐈
-Para aprender a programar y ademas ser un buen programador es importante el manejo de Arrays.
-Crea un array de las posiciones que se le diga, que contendrá los números del 1 al numero que se ingrese. Obtén la suma de todos ellos y la media.
+La programacion a objetos es poderosa, para empezar a practicar este es el problema. Se desean crear un programa que nos permita crear vehiculos.
+Debe contener lo siguiente:
+- La clase vehiculo debe tener unos atributos como placa, marca, modelo, serie, si es nuevo o usado, pais donde se ensamblo, cilindraje, color
+tipo de ruedas, tipo de combustible.
+- Debe tener metodos, minimo los get y los set, ademas de un metodo constructor. Serie interesante implementar el metodo ToString que nos devuelva la marca y placa del carro
 
 ##### Entrada:
-Numero maximo (Verificar que el numero sea mayor que 1)
+Los datos para instanciar un vehiculo
 ##### Salida: 
-El programa devuelve la suma y la media se los numeros en el array
+la instacia de un vehiculo y que lo imprima usando en Tostring (Hay que sobreescribir este metodo)

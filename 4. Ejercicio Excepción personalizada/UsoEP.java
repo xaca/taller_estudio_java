@@ -10,8 +10,10 @@ public class UsoEP {
             numerador = Integer.parseInt(str1);
             denominador = Integer.parseInt(str2);
             rango(numerador, denominador);
+            // Aca es posible que se produzca una excepción
             cociente = numerador / denominador;
             respuesta = String.valueOf(cociente);
+            // Capturamos las excepciónones
         } catch (NumberFormatException ex) {
             respuesta = "Se han introducido caracteres no numéricos";
         } catch (ArithmeticException ex) {
@@ -20,11 +22,5 @@ public class UsoEP {
             respuesta = ex.getMessage();
         }
         System.out.println(respuesta);
-    }
-
-    static void rango(int num, int den) throws ExcepcionIntervalo {
-        if ((num > 100) || (den < -5)) {
-            throw new ExcepcionIntervalo("Números fuera de rango");
-        }
     }
 }
