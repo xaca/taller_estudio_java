@@ -26,9 +26,12 @@ Tomado de: https://jarroba.com/polimorfismo-en-java-interface-parte-ii-con-ejemp
 
 # Ejercicio 💼
 
-Crear una clase Cliente con los atributos nombre, apellido, teléfono, correo y dirección.
-Escribe una interfaz, llamada InterfazImprimir, que declare los siguientes métodos:
+El ejercicio consiste en que hubo un error cuando el cliente hizo el chance, por lo que usted deberá modificar 
+los datos del cliente.
 
-imprimir(): este método imprimirá los atributos de la clase Cliente.
+Crear una clase Cliente con los atributos nombre, apellido, numeroChance.
+Escribe una interfaz, llamada InterfazCliente, que declare los siguientes métodos:
+
+imprimir(): este método imprimirá que cliente y con que número hizo el chance.
 modificar(): modificará los atributos de algún cliente.
  
