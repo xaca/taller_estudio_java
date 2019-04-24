@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - inventario",
+            "request": "launch",
+            "mainClass": "inventario"
+        }
+    ]
+}
