@@ -19,6 +19,41 @@ Para este programa se requiere los siguientes metodos:
 # Ejercicio 3 (Interfaz)
 Se debe implementar la interface KeyListener para imprimir el valor de la techa presionada a consola
 
+```sh
+import java.awt.*;  
+import java.awt.event.*;  
+public class KeyListenerExample extends Frame implements KeyListener{  
+    Label l;  
+    TextArea area;  
+    KeyListenerExample(){  
+          
+        l=new Label();  
+        l.setBounds(20,50,100,20);  
+        area=new TextArea();  
+        area.setBounds(20,80,300, 300);  
+        area.addKeyListener(this);  
+          
+        add(l);add(area);  
+        setSize(400,400);  
+        setLayout(null);  
+        setVisible(true);  
+    }  
+    public void keyPressed(KeyEvent e) {  
+        l.setText("Tecla Presionada");  
+    }  
+    public void keyReleased(KeyEvent e) {  
+        l.setText("Tecla Liberada");  
+    }  
+    public void keyTyped(KeyEvent e) {  
+        l.setText("Tecla Escrita");  
+    }  
+  
+    public static void main(String[] args) {  
+        new KeyListenerExample();  
+    }  
+}  
+```
+
 # Ejercicio 4 (Excepción)
 ```sh
 class Excepcion {
@@ -43,6 +78,4 @@ class Excepcion {
     }
 }
 ```
-
 **Realizado por: José Luis Carretero** :punch: 
-
